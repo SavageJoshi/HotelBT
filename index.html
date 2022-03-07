@@ -16,6 +16,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
     <title>Hotel BT | Welcome</title>
   </head>
   <body>
@@ -42,14 +43,16 @@
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,
               eligendi laboriosam. Repellendus officia harum eaque.
             </p>
-            <a class="btn" href="about.html">About Our Hotel</a>
+            <button class="button">
+              <a href="./about.html" class="btn">About Our Hotel</a>
+            </button>
           </div>
         </div>
       </div>
     </header>
 
     <section id="home-info" class="bg-dark">
-      <div class="info-img"></div>
+      <!-- <div class="info-img"></div>
       <div class="info-content">
         <h2>
           <span class="text-primary">The History</span>
@@ -63,6 +66,33 @@
           nobis natus voluptatum asperiores!
         </p>
         <a href="about.html" class="btn btn-light">Read More</a>
+      </div> -->
+      <div class="col img-col">
+        <img src="/img/photo-1.jpg" alt="" />
+      </div>
+
+      <div class="col text-col">
+        <div>
+          <h2 class="l-heading">
+            <span class="text-primary">The History</span>
+            <br />
+            Of Our Hotel
+          </h2>
+        </div>
+        <div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat
+            maxime, distinctio omnis nesciunt atque architecto error dolores
+            blanditiis quam eveniet voluptatibus nihil eligendi ullam nam fugiat
+            at hic unde tempora!
+          </p>
+        </div>
+        <br />
+        <div>
+          <button type="menu" class="button">
+            <a href="./about.html" class="btn btn-light">Read more</a>
+          </button>
+        </div>
       </div>
     </section>
 
