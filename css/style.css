@@ -164,7 +164,11 @@ p {
 /* Home Info */
 #home-info {
   display: flex;
+  /* height: 70vh; */
   width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
 }
 
 #home-info .info-img {
@@ -197,7 +201,7 @@ p {
 
 .col {
   width: 50%;
-  height: fit-content;
+  height: 100%;
 }
 .text-col {
   display: flex;

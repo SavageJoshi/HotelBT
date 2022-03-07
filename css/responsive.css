@@ -3,6 +3,7 @@
   #home-info {
     flex-direction: column-reverse;
     align-items: center;
+    height: auto;
   }
 
   .button {
@@ -33,7 +34,7 @@
   }
   .col {
     width: 100%;
-    height: min-content;
+    height: 100%;
   }
   .btn {
     margin: 5% auto;
