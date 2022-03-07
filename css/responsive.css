@@ -109,4 +109,8 @@
     background: #f4f4f4;
     color: #333;
   }
+
+  .foot {
+    flex-direction: column;
+  }
 }
